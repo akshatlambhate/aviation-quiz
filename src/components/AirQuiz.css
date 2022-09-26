@@ -1,0 +1,86 @@
+@font-face {
+    font-family:question ;
+    src: url(../assets/Honeypirls\ Regular.ttf);
+}
+.quiz-card {
+    background-color: #CDB4DB;
+    padding: 0.75em;
+    box-shadow: 0px 3px 10px 3px black;
+    border-radius: 1.3em;
+    max-width: 450px;
+    transition:  2s ease-in;
+    transition-timing-function: ease-in-out;
+    
+
+     
+}
+.question-heading {
+     font-size: 1rem;
+     text-align: left;
+     font-weight: 500;
+    
+}
+.question-heading span {
+    font-size: 1.5em;
+    color: rgb(225, 42, 42);
+
+}
+.question-text {
+    font-size: 1.5rem;
+    font-family: question;
+    letter-spacing: 0.06em;
+     text-shadow: 0px 2px 3px rgb(228, 215, 215);
+
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+.answer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+
+}
+.image-plane {
+    width: 150px;
+    border: 4px double black;
+    box-shadow: 2px 2px 5px 2px black;
+
+}
+.image-plane:hover {
+    width: 160px;
+    transition: 0.5s ease;
+}
+
+.answer-btn {
+    background-color: #FFAFCC;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.06em;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    font-weight: 600;
+    font-size: 1em;
+    text-shadow: 0px 1px 2px white;
+}
+ .answer-btn:hover {
+    background-color: #acb4ec;
+     padding: 0.7em 1.1em;
+     transition: 0.2s ease-in-out;
+ }
+ .score-card {
+    padding: 0.5em 2em;
+    font-size: 1.3em;
+    border-radius: 0em;
+
+ }
+ .score-card span {
+     font-size: 2em;
+     color: rgb(225, 42, 42);
+
+ }

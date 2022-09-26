@@ -1,10 +1,34 @@
+@font-face {
+  font-family: subheading;
+  src: url(../src/assets/ThinkOfYouPersonalUseRegular-PKleg.ttf);
+}
+@font-face {
+  font-family:heading;
+  src: url(../src/assets/Beyond\ Wonderland.ttf);
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #BDE0FE;
 }
+.heading {
+  font-size: 2.5em;
+  font-family: heading;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+ .App h2 {
+   font-family: subheading;
+   letter-spacing: 0.15em;
+   font-size: 2em;
+   font-style:italic;
 }
 
 @media (prefers-reduced-motion: no-preference) {
